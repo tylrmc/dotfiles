@@ -1,0 +1,563 @@
+{
+  // ------------------------------
+  // ----- WORKBENCH SETTINGS -----
+  // ------------------------------
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.activityBar.visible": false,
+  "workbench.statusBar.visible": true,
+  "workbench.tree.renderIndentGuides": "always",
+  "workbench.colorTheme": "City Lights",
+  "workbench.iconTheme": "material-icon-theme",
+  "material-icon-theme.languages.associations": {
+    "php": "Php_elephant"
+  },
+  "workbench.colorCustomizations": {
+    "[City Lights]": {
+      "tab.activeForeground": "#68a1f0",
+      "tab.activeBorder": "#68a1f0",
+      "list.activeSelectionForeground": "#33ced8",
+      "list.inactiveSelectionForeground": "#33ced8",
+      "editorError.border": "#040505",
+      "statusBar.foreground": "#5f789c",
+      "editor.selectionBackground": "#2f3a46",
+      "editor.background": "#040505",
+      "editorGutter.background": "#12171b",
+      "sideBar.background": "#040505",
+      "editor.lineHighlightBackground": "#1e262e",
+      "editor.lineHighlightBorder": "#1e262e",
+      "gitDecoration.ignoredResourceForeground": "#718ca1",
+      "editorIndentGuide.activeBackground": "#68a1f0"
+    },
+    "[Level Up]": {
+      "editorError.border": "#191324",
+      "editorHoverWidget.border": "#9588aa",
+      "editorWarning.foreground": "#999882",
+      "terminalCursor.foreground": "#33ced8",
+      "terminal.ansiGreen": "#92fc79",
+      "terminal.ansiBlack": "#191324"
+    }
+  },
+  // ---------------------------
+  // ----- EDITOR SETTINGS -----
+  // ---------------------------
+  "breadcrumbs.enabled": true,
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+  "editor.wordWrap": "on",
+  "editor.minimap.enabled": false,
+  "editor.showUnused": false,
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
+  "editor.suggestSelection": "first",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.semanticHighlighting.enabled": false,
+  // -----------------------------
+  // ----- EXPLORER SETTINGS -----
+  // -----------------------------
+  "explorer.confirmDragAndDrop": false,
+  // ---------------------------
+  // ----- WINDOW SETTINGS -----
+  // ---------------------------
+  "window.zoomLevel": 0,
+  // --------------------------
+  // ----- DEBUG SETTINGS -----
+  // --------------------------
+  "debug.internalConsoleOptions": "openOnSessionStart",
+  // ----------------------------------------
+  // ----- INTEGRATED TERMINAL SETTINGS -----
+  // ----------------------------------------
+  "terminal.integrated.cursorStyle": "underline",
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.shell.osx": "/bin/zsh",
+  "terminal.integrated.fontFamily": "Roboto Mono for Powerline",
+  // -----------------------------------
+  // ----- FILE EXCLUSION SETTINGS -----
+  // -----------------------------------
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true
+  },
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true
+  },
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/**": true
+  },
+  // ------------------------------
+  // ----- TODO TREE SETTINGS -----
+  // ------------------------------
+  "todo-tree.highlights.enabled": true,
+  "todo-tree.tree.showScanModeButton": false,
+  "todo-tree.highlights.defaultHighlight": {
+    "background": "#040505"
+  },
+  "todo-tree.filtering.excludeGlobs": [
+    "**/vendor/**",
+    "**/node_modules/**",
+    "**/dist/**",
+    "**/bower_components/**",
+    "**/build/**",
+    "**/.vscode/**",
+    "**/.github/**",
+    "**/_output/**",
+    "**/*.min.*",
+    "**/*.map"
+  ],
+  // --------------------------------
+  // ----- IMPORT PATH SETTINGS -----
+  // --------------------------------
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  // --------------------------
+  // ----- EMMET SETTINGS -----
+  // --------------------------
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "typescript": "html",
+    "blade": "html"
+  },
+  // ---------------------------
+  // ----- ESLINT SETTINGS -----
+  // ---------------------------
+  // "eslint.nodePath": "/usr/local/lib/node_modules",
+  "eslint.alwaysShowStatus": true,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "vue"
+  ],
+  // -----------------------------
+  // ----- PRETTIER SETTINGS -----
+  // -----------------------------
+  "prettier.singleQuote": true,
+  "prettier.disableLanguages": [
+    "vue",
+    "scss"
+  ],
+  // --------------------------
+  // ----- VETUR SETTINGS -----
+  // --------------------------
+  "vetur.validation.template": false,
+  "vetur.format.defaultFormatter.html": "prettier",
+  "vetur.format.defaultFormatter.css": "prettier",
+  "vetur.format.defaultFormatter.scss": "prettier",
+  "vetur.format.defaultFormatter.js": "prettier-eslint",
+  "vetur.format.defaultFormatterOptions": {
+    "prettyhtml": {
+      "printWidth": 100,
+      "singleQuote": false,
+      "wrapAttributes": true,
+      "sortAttributes": false
+    },
+    "prettier": {
+      "singleQuote": true
+    }
+  },
+  "vetur.grammar.customBlocks": {
+    "docs": "md",
+    "i18n": "json",
+    "router": "js"
+  },
+  // ------------------------
+  // ----- PHP SETTINGS -----
+  // ------------------------
+  "php.validate.enable": false,
+  "php.validate.executablePath": "/usr/bin/php",
+  "php.validate.run": "onSave",
+  "php.suggest.basic": false,
+  // ---------------------------------
+  // ----- INTELEPHENSE SETTINGS -----
+  // ---------------------------------
+  "intelephense.diagnostics.undefinedClassConstants": false,
+  "intelephense.diagnostics.undefinedFunctions": false,
+  "intelephense.diagnostics.undefinedConstants": false,
+  "intelephense.diagnostics.undefinedMethods": false,
+  "intelephense.diagnostics.undefinedProperties": false,
+  "intelephense.diagnostics.undefinedTypes": false,
+  // ---------------------------------------
+  // ----- NAMESPACE RESOLVER SETTINGS -----
+  // ---------------------------------------
+  "namespaceResolver.autoSort": false,
+  // -------------------------------
+  // ----- SCSS SETTINGS -----
+  // -------------------------------
+  "scss.validate": false,
+  // --------------------------------------
+  // ----- LANGUAGE SETTINGS -----
+  // --------------------------------------
+  "[go]": {
+    "editor.insertSpaces": false,
+    "editor.tabSize": 2,
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    }
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features",
+    "editor.tabSize": 2,
+    "editor.detectIndentation": false
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[php]": {
+    "editor.tabSize": 4,
+    "editor.detectIndentation": false,
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[vue]": {
+    "editor.formatOnSave": false
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2
+  },
+  // --------------------------------
+  // ----- THEME CUSTOMIZATIONS -----
+  // --------------------------------
+  "editor.tokenColorCustomizations": {
+    "[Level Up]": {
+      "textMateRules": [
+        {
+          "name": "HTML Attributes",
+          "scope": "entity.other.attribute-name",
+          "settings": {
+            "foreground": "#2DE1DE",
+            "fontStyle": "italic"
+          }
+        },
+        {
+          "name": "const, class, & extends",
+          "scope": [
+            "storage.type.js",
+            "storage.type.class.js",
+            "storage.modifier.js",
+            "storage.type.ts",
+            "storage.type.class.ts",
+            "storage.modifier.ts"
+          ],
+          "settings": {
+            "fontStyle": "italic"
+          }
+        },
+        {
+          "name": "PHP Modifiers",
+          "scope": [
+            "storage.type.class.php",
+            "storage.modifier.php",
+            "storage.modifier.extends.php",
+            "storage.modifier.implements.php"
+          ],
+          "settings": {
+            "foreground": "#7984c5",
+            "fontStyle": "italic"
+          }
+        },
+        {
+          "name": "Comments",
+          "scope": [
+            "comment",
+            "punctuation.definition.comment"
+          ],
+          "settings": {
+            "foreground": "#737b9e"
+          }
+        },
+        {
+          "name": "Keywords",
+          "scope": [
+            "keyword",
+            "keyword.control",
+            "keyword.control.import.js"
+          ],
+          "settings": {
+            "foreground": "#2de1de",
+            "fontStyle": "italic"
+          }
+        },
+        {
+          "name": "Functions",
+          "scope": [
+            "entity.name.function.js"
+          ],
+          "settings": {
+            "foreground": "#7984c5"
+          }
+        },
+        {
+          "name": "Objects",
+          "scope": [
+            "variable.other.object",
+            "meta.object-literal.key.js"
+          ],
+          "settings": {
+            "foreground": "#8d9cc0"
+          }
+        },
+        {
+          "name": "Object Properties",
+          "scope": [
+            "variable.other.object.property",
+            "variable.other.property"
+          ],
+          "settings": {
+            "fontStyle": "italic"
+          }
+        },
+        {
+          "name": "PHP Variables",
+          "scope": [
+            "variable.other.php"
+          ],
+          "settings": {
+            "foreground": "#9588aa"
+          }
+        },
+        {
+          "name": "PHP Variable Punctuation",
+          "scope": [
+            "punctuation.definition.variable.php"
+          ],
+          "settings": {
+            "foreground": "#cf256d"
+          }
+        },
+        {
+          "name": "Punctuation",
+          "scope": [
+            "punctuation.definition.string.begin",
+            "punctuation.definition.string.end",
+            "punctuation.support.type.property-name.begin.json.comments",
+            "punctuation.support.type.property-name.end.json.comments",
+            "punctuation.support.type.property-name.begin.json",
+            "punctuation.support.type.property-name.end.json",
+            "punctuation.definition.string.begin.json.comments",
+            "punctuation.definition.string.end.json.comments",
+            "punctuation.definition.string.begin.json",
+            "punctuation.definition.string.end.json",
+            "punctuation.terminator.expression.php",
+            "punctuation.definition.string.template.begin.js",
+            "punctuation.definition.string.template.end.js",
+            "punctuation.separator.delimiter.php"
+          ],
+          "settings": {
+            "foreground": "#92fc79"
+          }
+        },
+        {
+          "name": "Template String Variable Braces",
+          "scope": [
+            "punctuation.definition.template-expression.begin.js",
+            "punctuation.definition.template-expression.end.js"
+          ],
+          "settings": {
+            "foreground": "#2de1de"
+          }
+        },
+        {
+          "name": "Between Tag Pair",
+          "scope": [
+            "meta.scope.between-tag-pair.html",
+            "meta.tag.block.any.html"
+          ],
+          "settings": {
+            "foreground": "#9588aa"
+          }
+        }
+      ]
+    },
+    "[City Lights]": {
+      "textMateRules": [
+        {
+          "name": "Variable Punctuation",
+          "scope": [
+            "punctuation.definition.variable.php"
+          ],
+          "settings": {
+            "foreground": "#33ced8"
+          }
+        },
+        {
+          "name": "Comments",
+          "scope": [
+            "comment",
+            "punctuation.definition.comment"
+          ],
+          "settings": {
+            "foreground": "#5f789c",
+            "fontStyle": "italic"
+          }
+        },
+        {
+          "name": "Keywords",
+          "scope": [
+            "storage.type.js",
+            "storage.type.ts",
+            "storage.type.class.js",
+            "storage.type.class.ts",
+            "support.type.object.module.js",
+            "support.type.object.module.ts",
+            "storage.modifier.js",
+            "storage.modifier.ts",
+            "storage.type.ts",
+            "storage.type.class.ts",
+            "storage.modifier.ts",
+            "storage.modifier.php",
+            "storage.modifier.extends.php",
+            "variable.language.this.php",
+            "keyword",
+            "keyword.control",
+            "keyword.control.import.js",
+            "keyword.control.import.ts",
+            "keyword.control.return.php",
+            "keyword.blade",
+            "keyword.operator.expression.in.js",
+            "keyword.operator.expression.in.ts",
+            "keyword.other.namespace.php",
+            "keyword.other.use.php",
+            "keyword.other.use-as.php"
+          ],
+          "settings": {
+            "fontStyle": "italic"
+          }
+        },
+        {
+          "name": "Punctuation",
+          "scope": [
+            "punctuation.definition.string.begin",
+            "punctuation.definition.string.end",
+            "punctuation.support.type.property-name.begin.json.comments",
+            "punctuation.support.type.property-name.end.json.comments",
+            "punctuation.support.type.property-name.begin.json",
+            "punctuation.support.type.property-name.end.json",
+            "punctuation.definition.string.begin.json.comments",
+            "punctuation.definition.string.end.json.comments",
+            "punctuation.definition.string.begin.json",
+            "punctuation.definition.string.end.json",
+            "punctuation.terminator.expression.php",
+            "punctuation.definition.string.template.begin.js",
+            "punctuation.definition.string.template.end.js",
+            "punctuation.definition.string.template.begin.ts",
+            "punctuation.definition.string.template.end.ts"
+          ],
+          "settings": {
+            "foreground": "#33ced8"
+          }
+        },
+        {
+          "name": "Commas, Semicolons, & PHP Fat Arrows",
+          "scope": [
+            "punctuation.terminator.statement.js",
+            "punctuation.terminator.statement.ts",
+            "punctuation.separator.comma.js",
+            "punctuation.separator.comma.ts",
+            "punctuation.separator.delimiter.php",
+            "keyword.operator.key.php"
+          ],
+          "settings": {
+            "foreground": "#F9F9F9"
+          }
+        },
+        {
+          "name": "JSON Colons",
+          "scope": [
+            "punctuation.separator.dictionary.key-value.json"
+          ],
+          "settings": {
+            "foreground": "#68a1f0"
+          }
+        },
+        {
+          "name": "HTML Attributes",
+          "scope": "entity.other.attribute-name",
+          "settings": {
+            "fontStyle": "italic"
+          }
+        },
+        {
+          "name": "Objects",
+          "scope": [
+            "variable.other.object",
+            "meta.object-literal.key.js",
+            "meta.object-literal.key.ts"
+          ],
+          "settings": {
+            "foreground": "#8d9cc0"
+          }
+        },
+        {
+          "name": "Object Properties",
+          "scope": [
+            "variable.other.object.property",
+            "variable.other.property"
+          ],
+          "settings": {
+            "fontStyle": "italic"
+          }
+        },
+        {
+          "name": "Blade & Vue Braces, Template String Braces",
+          "scope": [
+            "support.function.construct.begin.blade",
+            "support.function.construct.end.blade",
+            "punctuation.definition.generic.begin.html",
+            "punctuation.definition.generic.end.html",
+            "punctuation.definition.template-expression.begin.js",
+            "punctuation.definition.template-expression.end.js",
+            "punctuation.definition.template-expression.begin.ts",
+            "punctuation.definition.template-expression.end.ts"
+          ],
+          "settings": {
+            "foreground": "#F9F9F9"
+          }
+        },
+        {
+          "name": "Between Tag Pair",
+          "scope": [
+            "meta.scope.between-tag-pair.html",
+            "meta.tag.block.any.html"
+          ],
+          "settings": {
+            "foreground": "#718CA1"
+          }
+        },
+        {
+          "name": "PHP File Start",
+          "scope": [
+            "punctuation.section.embedded.begin.php"
+          ],
+          "settings": {
+            "fontStyle": "italic"
+          }
+        },
+        {
+          "name": "TypeScript this",
+          "scope": [
+            "variable.language.this.ts"
+          ],
+          "settings": {
+            "foreground": "#B7C5D3"
+          }
+        }
+      ]
+    }
+  }
+}
